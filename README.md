@@ -7,4 +7,4 @@ Since we run all our setup as part of provisioning process, it is enough if you 
 Everytime you make some changes please run `release.sh`. It builds and increments the VERSION file.
 
 ### NOTE
-I would love to use Packer for this, but [mitchellh/packer#1681](https://github.com/mitchellh/packer/issues/1681) prevents me :(
+I would love to use Packer for this, but [mitchellh/packer#869](https://github.com/mitchellh/packer/issues/869) prevents me :(
