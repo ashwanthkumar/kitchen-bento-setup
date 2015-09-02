@@ -12,6 +12,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "scripts/install_java.sh"
   config.vm.provision "shell", path: "scripts/install_build_tool.sh"
   config.vm.provision "shell", path: "scripts/install_chef_omnibus.sh"
+  config.vm.provision "shell", path: "scripts/install_git.sh"
 
   # Do the regular clean up of the instance so that we can package
   config.vm.provision "shell", path: "scripts/clean_instance.sh"
